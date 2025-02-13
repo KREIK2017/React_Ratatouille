@@ -1,0 +1,42 @@
+.menu {
+  background-color: #0686c1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  animation: fadeInDown 1s ease-out;
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  max-width: 30%;
+  height: auto;
+  margin-right: 10px; 
+}
+
+.ul-menu {
+  font-size: 20px;
+  list-style-type: none;
+  display: flex;
+}
+
+.li-menu {
+  margin: 0 30px; 
+}
+.li-menu a {
+  color: #022B42;
+  text-decoration: none;
+}

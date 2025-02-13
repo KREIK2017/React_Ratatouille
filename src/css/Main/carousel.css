@@ -1,0 +1,19 @@
+
+.ant-carousel img {
+  width: 1000px;
+  height: 400px;
+  object-fit: cover; 
+  
+}
+  
+ 
+  .ant-carousel .slick-slide {
+    transition: transform 2s ease;
+    display: flex;
+  justify-content: center;
+  align-items: center; 
+  }
+
+.center{
+  display: fleч;
+}  

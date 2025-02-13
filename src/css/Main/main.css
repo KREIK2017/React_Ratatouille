@@ -1,0 +1,58 @@
+.main-container {
+  padding: 20px;
+}
+
+.carousel-img {
+  height: 400px;
+  width: 1000px;
+
+}
+
+.category-card {
+  width: 18rem;
+  margin-bottom: 20px;
+}
+
+.carousel-item {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  object-fit: cover;
+}
+
+.about-us-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8; 
+  border-radius: 15px;
+  box-shadow: 0 25px 100px rgba(0, 0, 0, 0.41);
+}
+
+.about-us-heading {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-us-content {
+  line-height: 1.6;
+  color: #666;
+}
+.col{
+  display: flex;
+  margin: 15px;
+  justify-content: center;
+}
+.recipe-card {
+ 
+  width: 18rem;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.406);
+}
+p {
+  font-size: 18px;
+}

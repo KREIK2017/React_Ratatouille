@@ -1,0 +1,48 @@
+
+.comments-container {
+    margin-top: 20px;
+  }
+  
+  .comment-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .comment-list li {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+
+  }
+  
+  
+  .comment-list li.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .comment-input {
+    margin-top: 10px;
+  }
+  
+  .comment-input input {
+    width: 80%;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .comment-input button {
+    padding: 8px 12px;
+    background-color: rgb(66, 34, 191);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
