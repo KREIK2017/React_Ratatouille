@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Carousel, Container, Row, Col, Card, } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { SoupImg, MainDishesImg, SaladImg, DessertImg, DrinkImg } from '../../image/Main/components';
+import { SoupImg, MainDishesImg, DessertImg, DrinkImg } from '../../image/Main/components';
 import Footer from './Footer';
 import { soup1 } from '../../image/soups/components';
 import { salad2 } from '../../image/salads/components';
